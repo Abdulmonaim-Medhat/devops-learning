@@ -1,33 +1,21 @@
 # DevOps Learning
 
-A 12-month, hands-on learning portfolio focused on **DevOps and AWS**, with the goal of developing the practical skills required for international DevOps / Cloud Engineer roles.
+A hands-on collection of labs, experiments, and technical notes covering DevOps practices, cloud infrastructure, automation, containers, CI/CD, and operations.
 
-This repository documents the labs, experiments, troubleshooting exercises, architecture decisions, and lessons learned throughout the roadmap.
+The repository focuses on practical implementation and troubleshooting in realistic environments. It can be used as a technical reference, lab journal, or starting point for further experimentation.
 
-## Learning approach
+## Topics
 
-- 5–7 hours per week.
-- Practical, scenario-based learning supported by concise theory.
-- Build on existing Linux, networking, virtualization, containers, CI/CD, and infrastructure experience.
-- Record evidence, root causes, fixes, and prevention steps—not just command lists.
-- Keep AWS spending within a target budget of approximately **$10–20/month**; prefer local labs whenever possible.
-
-## Roadmap
-
-| Month | Focus | Status |
-|---|---|---|
-| 01 | Linux, Networking & Infrastructure Fundamentals | In progress |
-| 02 | Virtualization, Docker & Docker Compose | Planned |
-| 03 | AWS Fundamentals | Planned |
-| 04 | AWS Security & Operations | Planned |
-| 05 | Terraform & Infrastructure as Code | Planned |
-| 06 | Ansible & Configuration Management | Planned |
-| 07 | Kubernetes Fundamentals | Planned |
-| 08 | CI/CD, GitHub Actions, GitLab CI/CD & GitOps | Planned |
-| 09 | Monitoring, Observability & Incident Response | Planned |
-| 10 | Amazon EKS & Advanced AWS | Planned |
-| 11 | Cloud-Native Capstone Project | Planned |
-| 12 | Interview Preparation & Consolidation | Planned |
+- Linux administration and troubleshooting
+- Networking and infrastructure fundamentals
+- Virtualization and containerization
+- Docker and Kubernetes
+- Cloud platforms and AWS
+- Infrastructure as Code with Terraform
+- Configuration management with Ansible
+- CI/CD and GitOps
+- Monitoring, observability, and incident response
+- Cloud-native architecture and deployment
 
 ## Repository structure
 
@@ -35,55 +23,44 @@ This repository documents the labs, experiments, troubleshooting exercises, arch
 devops-learning/
 ├── README.md
 ├── .gitignore
-├── Month-01-Linux-Networking/
-│   ├── README.md
-│   └── Labs/
-│       └── Lab-01-Linux-Fundamentals/
-│           ├── README.md
-│           ├── scripts/
-│           ├── scenarios/
-│           └── evidence/
-├── Month-02-Docker-Virtualization/
-├── Month-03-AWS-Fundamentals/
-├── Month-04-AWS-Security/
-├── Month-05-Terraform/
-├── Month-06-Ansible/
-├── Month-07-Kubernetes/
-├── Month-08-CI-CD-GitOps/
-├── Month-09-Monitoring-Observability/
-├── Month-10-Amazon-EKS/
-├── Month-11-Capstone/
-└── Month-12-Interview-Preparation/
+└── Month-01-Linux-Networking/
+    ├── README.md
+    └── Labs/
+        └── Lab-01-Linux-Fundamentals/
+            ├── README.md
+            ├── scripts/
+            ├── scenarios/
+            └── evidence/
 ```
+
+Additional topic areas and labs can be added as the repository grows.
 
 ## Lab documentation standard
 
-Each practical lab should capture:
+Where applicable, each lab should include:
 
 1. Objective and scenario.
 2. Environment and architecture.
-3. Deployment / reproduction steps.
+3. Deployment or reproduction steps.
 4. Symptoms and diagnostic commands.
 5. Evidence collected.
-6. Root cause.
+6. Root cause analysis.
 7. Resolution and verification.
 8. Prevention and lessons learned.
 
-## Environment
+## Working principles
 
-Primary workstation:
-- Windows laptop
-- AMD Ryzen 7 7435HS
-- 32 GB RAM
-- VMware Workstation
-- Vagrant
+- Prefer hands-on implementation over theory alone.
+- Use repeatable, documented steps.
+- Investigate with evidence before changing configurations.
+- Keep credentials, private keys, and sensitive data out of the repository.
+- Record failures and lessons learned so experiments are reproducible.
 
-Existing lab environment includes Fedora and Ubuntu Linux virtual machines. Lab resource allocations will be kept lightweight so environments can be created and destroyed quickly.
+## Current examples
 
-## Progress
-
-See [Month 01](Month-01-Linux-Networking/README.md) for the current learning plan and [Lab 01](Month-01-Linux-Networking/Labs/Lab-01-Linux-Fundamentals/README.md) for the first hands-on exercise.
+- [Linux, Networking & Infrastructure](Month-01-Linux-Networking/README.md)
+- [Linux Fundamentals Lab](Month-01-Linux-Networking/Labs/Lab-01-Linux-Fundamentals/README.md)
 
 ---
 
-*This is a working engineering journal. Content will be updated as labs are completed and understanding is validated through practical troubleshooting.*
+*Technical notes and lab content are maintained as practical reference material.*
